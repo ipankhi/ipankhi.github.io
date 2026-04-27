@@ -6,13 +6,13 @@
 }
 
 :root {
-    --primary-color: #2563eb;
-    --secondary-color: #1e40af;
-    --text-color: #1f2937;
-    --light-text: #6b7280;
-    --bg-color: #ffffff;
-    --border-color: #e5e7eb;
-    --hover-color: #f3f4f6;
+    --primary-color: #000000;
+    --secondary-color: #1a1a1a;
+    --text-color: #ffffff;
+    --light-text: #b0b0b0;
+    --bg-color: #0a0a0a;
+    --border-color: #2a2a2a;
+    --hover-color: #1a1a1a;
 }
 
 body {
@@ -30,8 +30,8 @@ body {
 
 /* Navigation */
 .navbar {
-    background-color: var(--bg-color);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #0a0a0a;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -131,7 +131,7 @@ section h2 {
 
 /* About Section */
 .about {
-    background-color: #f9fafb;
+    background-color: #1a1a1a;
 }
 
 .about p {
@@ -168,7 +168,7 @@ section h2 {
 
 /* Experience Section */
 .experience {
-    background-color: var(--bg-color);
+    background-color: #0a0a0a;
 }
 
 .timeline {
@@ -205,7 +205,7 @@ section h2 {
 .timeline-content {
     flex: 1;
     padding: 20px;
-    background-color: #f9fafb;
+    background-color: #1a1a1a;
     border-left: 3px solid var(--primary-color);
     border-radius: 5px;
 }
@@ -228,7 +228,7 @@ section h2 {
 
 /* Skills Section */
 .skills {
-    background-color: #f9fafb;
+    background-color: #1a1a1a;
 }
 
 .skills-grid {
@@ -238,10 +238,10 @@ section h2 {
 }
 
 .skill-category {
-    background-color: white;
+    background-color: #0a0a0a;
     padding: 2rem;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .skill-category h3 {
@@ -276,7 +276,7 @@ section h2 {
 
 /* Projects Section */
 .projects {
-    background-color: white;
+    background-color: #0a0a0a;
 }
 
 .projects-grid {
@@ -286,7 +286,7 @@ section h2 {
 }
 
 .project-card {
-    background-color: #f9fafb;
+    background-color: #1a1a1a;
     border-radius: 8px;
     padding: 2rem;
     transition: all 0.3s ease;
@@ -342,7 +342,7 @@ section h2 {
 
 /* Publications Section */
 .publications {
-    background-color: #f9fafb;
+    background-color: #1a1a1a;
 }
 
 .publications-list {
@@ -351,12 +351,12 @@ section h2 {
 }
 
 .publication-item {
-    background-color: white;
+    background-color: #0a0a0a;
     padding: 2rem;
     margin-bottom: 2rem;
     border-radius: 8px;
     border-left: 4px solid var(--primary-color);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .publication-item h3 {
@@ -390,7 +390,7 @@ section h2 {
 
 /* Contact Section */
 .contact {
-    background-color: white;
+    background-color: #0a0a0a;
 }
 
 .contact-intro {
@@ -434,7 +434,7 @@ section h2 {
 
 /* Contact Form */
 .contact-form {
-    background-color: #f9fafb;
+    background-color: #1a1a1a;
     padding: 2rem;
     border-radius: 8px;
 }
@@ -459,13 +459,15 @@ section h2 {
     font-family: inherit;
     font-size: 1rem;
     transition: all 0.3s ease;
+    background-color: #0a0a0a;
+    color: white;
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.1);
 }
 
 .form-group textarea {
@@ -474,7 +476,7 @@ section h2 {
 
 /* Footer */
 .footer {
-    background-color: #1f2937;
+    background-color: #000000;
     color: white;
     padding: 2rem 0;
     text-align: center;
